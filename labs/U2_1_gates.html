@@ -1,0 +1,99 @@
+<article class="lab" data-lab="2.1">
+<div class="box goal">
+  <h3>ستخرج من هذا المختبر بـ</h3>
+  <ul>
+    <li>مستوى الخطر والفئة والبوابات اللازمة لخمسة طلبات من وحدتي الشريحة، منها وكيل وأداة بناها موظف.</li>
+    <li>قرار مسبب لكل طلب، والدقائق التي أخذها قرارك، وأيام العمل التي أخذها كل طلب في سجل المكتب مقابل مستوى الخدمة.</li>
+    <li>سجل استثناءات مصحح، وتعديل واحد على قواعد البوابات تدافع عنه في مراجعة المرحلة 2.</li>
+  </ul>
+</div>
+
+<div class="callout warn"><b>استخدام الذكاء الاصطناعي في هذا المختبر:</b> مدرّس فقط، ومهيأ لطرح الاعتراضات. قرر بنفسك أولًا، ثم اعرض قرارك عليه ليجد أضعف نقطة فيه.</div>
+
+<h2>ما تحتاجه</h2>
+<div class="files">
+  <a href="files/policy_set_draft.md" target="_blank"><b>policy_set_draft.md</b><span>مسودة مجموعة السياسات: المستويات، ومعيار الفئات، ومعيار الوكلاء، ومعيار أدوات الموظفين، ومعيار الاستثناءات.</span></a>
+  <a href="files/gates_draft.md" target="_blank"><b>gates_draft.md</b><span>البوابات الخمس ومستويات الخدمة، والقاعدة التي يطبقها المكتب اليوم.</span></a>
+  <a href="files/gate_requests.md" target="_blank"><b>gate_requests.md</b><span>الطلبات الخمسة A إلى E بأدلة الاحتمالية والأثر.</span></a>
+  <a href="files/gate_log.csv" download><b>gate_log.csv</b><span>سجل المكتب: الفئة التي سجلها، وتاريخ تقديم كل بوابة وتاريخ قرارها.</span></a>
+  <a href="files/exceptions_register_template.csv" download><b>exceptions_register_template.csv</b><span>سجل الاستثناءات الفارغ.</span></a>
+</div>
+
+<h2>الخطوات</h2>
+
+<div class="step">
+  <h3>1 · اقرأ مسودة السياسات والبوابات <span class="min">10 دقائق</span></h3>
+  <p>اقرأ <code>policy_set_draft.md</code> و<code>gates_draft.md</code>. اكتب في سطر لكل مستوى: من يعتمد السياسة، ومن يعتمد المعيار، ومن يعتمد الإجراء. ثم اكتب قاعدتي الرفع وقاعدة التوقف عند G0 بكلماتك.</p>
+</div>
+
+<div class="step">
+  <h3>2 · حدد مستوى الخطر والفئة للطلبات الخمسة <span class="min">18 دقيقة</span></h3>
+  <table>
+    <tr><th>الطلب</th><th>الاحتمالية × الأثر</th><th>الفئة بالمستوى</th><th>قاعدة رفع أو توقف تنطبق؟</th><th>الفئة النهائية</th></tr>
+    <tr><td>A</td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td>B</td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td>C</td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td>D</td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td>E</td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+  </table>
+  <div class="callout note"><b>انتبه:</b> اقرأ كل ملف حتى آخره: مقدم الطلب يصنف بياناته ويقترح فئته، والمكتب يعتمد. لا تأخذ تصنيفه كما هو.</div>
+</div>
+
+<div class="step">
+  <h3>3 · مرّر الطلبين A وB <span class="min">14 دقيقة</span></h3>
+  <p>شغّل مؤقتًا لكل طلب. لكل منهما: أي بوابات يمر بها، وما قرار كل بوابة، ومن يقرر. اكتب القرار وسببه في سطرين، ثم سجّل الدقائق التي أخذها قرارك.</p>
+</div>
+
+<div class="step">
+  <h3>4 · مرّر الطلب C: الوكيل <span class="min">14 دقيقة</span></h3>
+  <p>طبّق معيار الوكلاء بندًا بندًا: المسؤول المسمى، والصلاحيات المكتوبة، والإغلاق دون موافقة موظف. ثم قرر في طلب الاستثناء من G3: من يحق له اعتماده، وهل يجوز أصلًا؟ سجّل الدقائق.</p>
+  <div class="prompt" data-tool="مساعد بدور المدرّس">هذا قراري في طلب وكيل يغلق طلبات الاعتماد غير المكتملة، مع طلب استثناء من مراجعة ما قبل الإطلاق: <span class="ph">القرار وأسبابه</span>. لا تقرر بدلًا مني. اعترض على قراري من جهة مقدم الطلب، ثم من جهة جهة تدريبية أُغلق طلبها خطأً.</div>
+</div>
+
+<div class="step">
+  <h3>5 · مرّر الطلبين D وE <span class="min">16 دقيقة</span></h3>
+  <p>D: نموذج يرتب ولا يقرر، والموظف يراجع كل طلب. E: تحديث مورد لنظام قائم يضيف إلغاءً آليًا. هل تحديث النظام القائم طلب جديد؟ وما مصير الاستثناء المفتوح عليه منذ 2025؟ سجّل الدقائق.</p>
+</div>
+
+<div class="step">
+  <h3>6 · سجّل القرارات واحسب مستوى الخدمة من السجل <span class="min">14 دقيقة</span></h3>
+  <p>من <code>gate_log.csv</code>: لكل طلب، احسب أيام العمل من أول تقديم إلى آخر قرار (الأحد إلى الخميس؛ لا تحسب يوم التقديم). قارنها بمستوى الخدمة للفئة الصحيحة التي حددتها أنت، لا للفئة التي سجلها المكتب.</p>
+  <table>
+    <tr><th>الطلب</th><th>الفئة في السجل</th><th>فئتك</th><th>أيام العمل</th><th>مستوى الخدمة</th><th>ضمنه؟</th><th>دقائقك</th></tr>
+    <tr><td>A</td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td>B</td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td>C</td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td>D</td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td>E</td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+  </table>
+  <p>أي طلبين تأخرا؟ ابحث في السجل عن التاريخ الذي يتكرر في آخر عمود. ما الذي يحدث في ذلك اليوم؟</p>
+</div>
+
+<div class="step">
+  <h3>7 · املأ سجل الاستثناءات وأصلح قاعدة واحدة <span class="min">10 دقائق</span></h3>
+  <p>اكتب في <code>exceptions_register_template.csv</code> كل استثناء طُلب أو بقي مفتوحًا، بمالكه ومعتمِده وتاريخ انتهائه، أو اكتب أنه مرفوض ولماذا. ثم عدّل قاعدة واحدة في <code>gates_draft.md</code> تمنع تأخيرًا رأيته، واكتب سطرًا: ما الذي تكسبه وما الذي تخاطر به.</p>
+</div>
+
+<div class="step stretch">
+  <h3>✱ تمرين إضافي: الطلب السادس</h3>
+  <p>اكتب طلبًا سادسًا يكسر قاعدة الفئات كما هي مكتوبة: يأخذ فئة منخفضة وهو يستحق أعلى، أو العكس. ثم عدّل القاعدة بحيث يأخذ فئته الصحيحة.</p>
+</div>
+
+<h2>أسئلة تحقق</h2>
+<ol class="checks">
+  <li>لماذا يتوقف الطلب A عند G0 مع أن مستواه 4؟</li>
+  <li>ما الفئة الصحيحة للطلب C، وما الذي يلزم قبل أي تجريب؟</li>
+  <li>أي طلبين خرجا عن مستوى الخدمة، وما سبب ذلك في التصميم لا في المراجعين؟</li>
+</ol>
+
+<details class="instructor">
+  <summary>للمدرب</summary>
+  <ul>
+    <li>الحل المرجعي: <code>labs/solutions/U2_1_gates.md</code>. التحقق: <code>uv run labs/solutions/check.py 2.1</code>.</li>
+    <li>المستويات والفئات: A 4 (T2) ويتوقف عند G0 للبيانات؛ B 2 (T1)؛ C 6 ويُرفع إلى T3 (وكيل يغلق طلبات)؛ D 6 (T2)؛ E 12 (T3).</li>
+    <li>أيام العمل في السجل: A 2، وB 21، وC 19، وD 16، وE 15. خارج المستوى للفئة الصحيحة: B (حد 3) وD (حد 10). كلاهما قُرر يوم 2026-10-05، يوم اللجنة الشهرية، مع أنهما ليسا T3.</li>
+    <li>C سُجل T2 فلم يمر بـ G3، واستثناؤه وقّعه مقدمه: مرفوض. استثناء E بلا تاريخ انتهاء: يُغلق أو يُرفع إلى اللجنة.</li>
+    <li>دقائق القرار يسجلها المشارك بنفسه؛ لم تُقس دقائق مرجعية. المتوقع أن يأخذ C وE أطول من غيرهما.</li>
+  </ul>
+</details>
+</article>

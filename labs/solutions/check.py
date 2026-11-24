@@ -309,6 +309,9 @@ def lab_3_2():
 def examples():
     u4 = [r for r in rows("inventory.csv") if r["unit"] == "U4"]
     eq("U4 systems on the slides", len(u4), 11)
+    s33 = next(r for r in u4 if r["system_id"] == "SYS-33")
+    eq("SYS-33 (tiers slide): likelihood, impact, level, decision role",
+       (s33["likelihood"], s33["impact"], s33["risk_level"], s33["decision_role"]), ("3", "2", "6", "يقرر"))
     eq("parallel utilisation example: 900 h on 1 FTE at 70%", round(100 * 900 / (1400 * 0.7)), 92)
     eq("parallel quorum example: 9 voting, 2 absent, 3 recused, quorum 6", 9 - 2 - 3 >= 6, False)
     eq("parallel SLA example: submitted Sunday 2026-03-01, decided Thursday 2026-03-12", workdays(date(2026, 3, 1), date(2026, 3, 12)), 9)
