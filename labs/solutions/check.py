@@ -302,6 +302,10 @@ def lab_3_2():
     hrs = forecast["T1"] * 3 + forecast["T2"] * 12 + forecast["T3"] * 40 + 896 + 40
     eq("next-year demand, hours", hrs, 3543)
     eq("FTE needed at 1,400 h and 75%", round(hrs / (1400 * 0.75), 1), 3.4)
+    eq("last quarter pace: requests per month, per year", (round(per_month, 1), round(per_month * 12)), (15.3, 184))
+    eq("sensitivity: T3 intake 30 h instead of 40, hours saved and FTE", (forecast["T3"] * 10, round(forecast["T3"] * 10 / 1050, 1)), (390, 0.4))
+    eq("incidents found by monitoring, count", sum(r["found_by"] == "مراقبة" for r in inc), 4)
+    eq("exceptions open with no expiry or past expiry", 5 + 2, 7)
 
 
 # ------------------------------------------------------------------ slide examples (parallel, unit U4)
@@ -314,6 +318,7 @@ def examples():
        (s33["likelihood"], s33["impact"], s33["risk_level"], s33["decision_role"]), ("3", "2", "6", "يقرر"))
     eq("parallel utilisation example: 900 h on 1 FTE at 70%", round(100 * 900 / (1400 * 0.7)), 92)
     eq("parallel quorum example: 9 voting, 2 absent, 3 recused, quorum 6", 9 - 2 - 3 >= 6, False)
+    eq("parallel FTE example: 2,100 h at 1,400 h and 75%", round(2100 / (1400 * 0.75), 1), 2.0)
     eq("parallel SLA example: submitted Sunday 2026-03-01, decided Thursday 2026-03-12", workdays(date(2026, 3, 1), date(2026, 3, 12)), 9)
 
 
