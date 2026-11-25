@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-ax="lab" data-track="executives">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>المختبر 3.2 · تقرير سنة إلى اللجنة التنفيذية · تصميم برنامج حوكمة الذكاء الاصطناعي وتشغيله</title>
+<meta name="generator" content="SDAIA Academy engine 1.0.0">
+<link rel="icon" href="../_engine/icon.svg">
+<link rel="alternate" type="text/markdown" href="U3_2_board_report.md">
+<link rel="describedby" href="../llms.txt">
+<link rel="stylesheet" href="../_engine/academy.css">
+</head>
+<body>
+<header>
+<div class="wrap">
+<div class="top"><div class="logo"></div><nav><a href="../index.html">صفحة المقرر</a><a href="../slides/r2.html#lab-3-2">العودة إلى الشرائح</a></nav></div>
+<span class="tag">المختبر 3.2</span>
+<h1>تقرير سنة إلى اللجنة التنفيذية</h1>
+<p>إعداد تقرير لمجلس الإدارة (في الوزارة: اللجنة التنفيذية برئاسة الوزير) من بيانات اصطناعية للبرنامج تغطي سنة: مستوى الخدمة، والإشراف، والحوادث، والاستثناءات، والتدريب، والقوى العاملة</p>
+<div class="meta"><span>96 دقيقة</span><span>مراجعة المرحلة 2</span><span>الجلسة 2: القياس والاستدامة</span></div>
+</div>
+</header>
+<main class="wrap">
+<article class="lab" data-lab="3.2">
+<div class="box goal">
+  <h3>ستخرج من هذا المختبر بـ</h3>
+  <ul>
+    <li>ثلاث بطاقات تعريف لمقاييس فاعلية، وعلامة إشراف شكلي واحدة، محسوبة من سنة من بيانات البرنامج.</li>
+    <li>تقدير للقوى العاملة في السنة التالية من الطلب المتوقع، بافتراضات مكتوبة.</li>
+    <li>تقرير من صفحة واحدة إلى اللجنة التنفيذية للوزارة، فيه ثلاثة قرارات تطلبها.</li>
+  </ul>
+</div>
+
+<div class="callout warn"><b>استخدام الذكاء الاصطناعي في هذا المختبر:</b> مدرّس فقط، ومهيأ لطرح الاعتراضات. احسب بنفسك في جدول البيانات، ثم اعرض تقريرك عليه ليقرأه كما يقرؤه عضو في اللجنة التنفيذية.</div>
+
+<h2>ما تحتاجه</h2>
+<div class="files">
+  <a href="files/metric_card.md" target="_blank"><b>metric_card.md</b><span>بطاقة تعريف المقياس، وافتراضات المقرر للقوى العاملة.</span></a>
+  <a href="files/year_requests.csv" download><b>year_requests.csv</b><span>141 طلبًا من نوفمبر 2025 إلى أكتوبر 2026: الفئة، وأيام العمل، ومستوى الخدمة، والقرار، وعدد الشروط.</span></a>
+  <a href="files/year_incidents.csv" download><b>year_incidents.csv</b><span>حوادث السنة: كيف اكتُشفت، وأيام الاحتواء.</span></a>
+  <a href="files/year_exceptions.csv" download><b>year_exceptions.csv</b><span>الاستثناءات وتواريخ انتهائها وحالتها.</span></a>
+  <a href="files/year_training.csv" download><b>year_training.csv</b><span>التدريب بحسب الدور مقابل الهدف.</span></a>
+  <a href="files/year_office_hours.csv" download><b>year_office_hours.csv</b><span>ساعات المراجعة في المكتب لكل شهر.</span></a>
+  <a href="files/ops_proposal.md" target="_blank"><b>ops_proposal.md</b><span>ساعات المراجعة بحسب الفئة، من المختبر 1.2.</span></a>
+  <a href="files/board_report_template.md" target="_blank"><b>board_report_template.md</b><span>قالب التقرير في صفحة واحدة.</span></a>
+</div>
+
+<h2>الخطوات</h2>
+
+<div class="step">
+  <h3>1 · التعريفات والبيانات <span class="min">10 دقائق</span></h3>
+  <p>اقرأ <code>metric_card.md</code>. افتح الملفات واكتب لكل ملف سطرًا: ما الذي يسجله، ومن أي مصدر، وما الذي لا يسجله. ربع السنة الأول في هذه البيانات من نوفمبر إلى يناير.</p>
+</div>
+
+<div class="step">
+  <h3>2 · مستوى الخدمة بحسب الفئة <span class="min">18 دقيقة</span></h3>
+  <p>احسب عدد الطلبات ونسبة ما كان ضمن مستوى الخدمة لكل ربع، ثم لكل فئة، ثم وسيط أيام العمل لكل فئة. أي الرقمين يكتبه المكتب في تقريره عادة، وأيهما يحتاجه الوزير؟</p>
+  <table>
+    <tr><th>الفئة</th><th>المستوى</th></tr>
+    <tr><td>T1</td><td>3</td></tr>
+    <tr><td>T2</td><td>10</td></tr>
+    <tr><td>T3</td><td>20</td></tr>
+  </table>
+  <p class="small">انقل الجدول إلى جدول بياناتك، وأضف إليه الأعمدة «الطلبات»، و«ضمن المستوى %»، و«وسيط أيام العمل».</p>
+</div>
+
+<div class="step">
+  <h3>3 · فاعلية الإشراف <span class="min">16 دقيقة</span></h3>
+  <p>قسّم طلبات T3 إلى ما قبل مايو 2026 وما بعده. كم منها قُبل دون أي شرط في كل فترة؟ ما الذي تغير؟ اكتب بطاقة لمقياس يكشف هذا كل ربع، بالسلوك الخاطئ الذي قد يدفع إليه.</p>
+</div>
+
+<div class="step">
+  <h3>4 · الحوادث والاستثناءات <span class="min">12 دقيقة</span></h3>
+  <p>كم حادثة اكتُشفت بالمراقبة قبل الشكوى؟ قارن وسيط أيام الاحتواء بين الطريقتين. ثم في الاستثناءات: أيها مفتوح بلا تاريخ انتهاء، وأيها مفتوح وقد انتهى تاريخه في آخر أكتوبر 2026؟</p>
+</div>
+
+<div class="step">
+  <h3>5 · تقدير القوى العاملة <span class="min">16 دقيقة</span></h3>
+  <p>احسب استغلال المكتب في السنة (ثلاثة موظفين × 1,400 ساعة). ثم قدّر طلبات السنة التالية بوتيرة الربع الأخير، موزعة على الفئات بنسبها في السنة، وحوّلها إلى ساعات بساعات الاستقبال في <code>ops_proposal.md</code>، وأضف المراجعات القائمة وأدوات الموظفين. كم موظفًا يلزم عند 75%؟</p>
+  <div class="prompt" data-tool="مساعد بدور المدرّس">هذا تقديري للقوى العاملة في السنة التالية وافتراضاته: <span class="ph">التقدير والافتراضات</span>. لا تحسب بدلًا مني. اسألني ثلاثة أسئلة يسألها عضو في اللجنة التنفيذية يشك في التقدير، وقل أي افتراض يغير النتيجة أكثر من غيره.</div>
+</div>
+
+<div class="step">
+  <h3>6 · التقرير في صفحة واحدة <span class="min">18 دقيقة</span></h3>
+  <p>املأ <code>board_report_template.md</code>: الرسالة في سطرين، وثلاثة مقاييس فاعلية باتجاهها، وعلامة الإشراف الشكلي، والحوادث، والقدرة، وثلاثة قرارات لكل منها مالك وموعد. لا تضع عدد المراجعات المنجزة إلا بجانب مقياس فاعلية.</p>
+</div>
+
+<div class="step">
+  <h3>7 · قراءة زميل <span class="min">6 دقائق</span></h3>
+  <p>بادل تقريرك مع زميل. يقرأ الرسالة وحدها ويقول ما فهمه منها، ثم يشير إلى رقم واحد لا يعرف مصدره.</p>
+</div>
+
+<div class="step stretch">
+  <h3>✱ تمرين إضافي: المقياس الذي يكافئ الخطأ</h3>
+  <p>اختر مقياسًا من تقريرك، واكتب كيف يحسّنه مكتب دون أن يتحسن البرنامج. ثم أضف إلى بطاقته مقياسًا مقابلًا يمنع ذلك.</p>
+</div>
+
+<h2>أسئلة تحقق</h2>
+<ol class="checks">
+  <li>لماذا لا يكفي أن عدد الطلبات زاد كل ربع؟</li>
+  <li>ما الذي تغير في قرارات T3 بعد مايو 2026، ولماذا هو علامة إنذار لا علامة نجاح؟</li>
+  <li>كم موظفًا يلزم المكتب في السنة التالية، وما الافتراض الذي يغير ذلك أكثر من غيره؟</li>
+</ol>
+
+<details class="instructor">
+  <summary>للمدرب</summary>
+  <ul>
+    <li>الحل المرجعي: <code>labs/solutions/U3_2_board_report.md</code>. التحقق: <code>uv run labs/solutions/check.py 3.2</code>.</li>
+    <li>الطلبات 25 ثم 31 ثم 39 ثم 46، وضمن المستوى 60% ثم 61% ثم 38% ثم 17%. بحسب الفئة: T1 22%، وT2 48%، وT3 63%؛ والوسيط 5 و11 و19.5 يوم عمل.</li>
+    <li>T3 من مايو 2026: 19 من 19 قُبلت دون شرط؛ قبل مايو كانت 8 بشروط أو أعيدت أو رُفضت.</li>
+    <li>الحوادث 20، اكتُشف 20% منها بالمراقبة؛ الوسيط يومان مقابل 17. بلا تاريخ انتهاء X-02 وX-04 وX-07 وX-10 وX-12؛ منتهية ولم تُغلق X-06 وX-08.</li>
+    <li>ساعات المكتب 3,133 = 75% من ثلاثة موظفين. السنة التالية: 77 و68 و39 طلبًا، و3,543 ساعة، و3.4 موظفين.</li>
+  </ul>
+</details>
+</article>
+<nav class="pager"><a href="U3_1_committee.html" rel="prev">→ المختبر السابق</a></nav>
+</main>
+<footer><div class="wrap">أكاديمية سدايا · مسار التنفيذيين والقادة · تصميم برنامج حوكمة الذكاء الاصطناعي وتشغيله<br><span class="muted">إصدار المقرر 2027.1.0 · المحرّك 1.0.0 · بُني في ⁦2026-11-25⁩ · الإيداع 5ad5de8</span></div></footer>
+<script type="application/json" id="academy-data">{"v":1,"engine":"1.0.0","build":{"at":"2026-11-25T00:09:11Z","version":"2027.1.0","commit":"5ad5de8"},"course":{"id":"lds-aig-401","code":"LDS-AIG-401","title":"تصميم برنامج حوكمة الذكاء الاصطناعي وتشغيله","track":"executives","lang":"ar","dir":"rtl","url":"https://sdaiaacademy.github.io/lds-aig-401/","repo":"SDAIAAcademy/lds-aig-401","home":"../index.html"},"lab":{"id":"3.2","title":"تقرير سنة إلى اللجنة التنفيذية","summary":"إعداد تقرير لمجلس الإدارة (في الوزارة: اللجنة التنفيذية برئاسة الوزير) من بيانات اصطناعية للبرنامج تغطي سنة: مستوى الخدمة، والإشراف، والحوادث، والاستثناءات، والتدريب، والقوى العاملة","minutes":96,"day":3,"unit":"مراجعة المرحلة 2","session":2,"deck":"../slides/r2.html#lab-3-2","prev":"U3_1_committee.html","next":null,"alt":{}},"ai":{"context":{"course":"../context/course.md","courseJs":"../context/course.js","day":null,"llms":"../llms.txt"},"tasks":[],"tools":[]},"features":{},"strings":{}}</script>
+<script src="../_engine/academy.js"></script>
+</body>
+</html>

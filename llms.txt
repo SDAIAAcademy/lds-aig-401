@@ -1,0 +1,36 @@
+# تصميم برنامج حوكمة الذكاء الاصطناعي وتشغيله
+
+> يصمم المشارك برنامجًا لحوكمة الذكاء الاصطناعي يعرف ما لدى الجهة، ويقرر بسرعة تناسب الخطر، ويُسمع فيه المتأثرون، ثم يرأس لجنته ويدافع عنه أمام لجنة. مقرر من أكاديمية سدايا، الرمز LDS-AIG-401، الإصدار 2027.1.0، بالعربية.
+
+كل شريحة عنوان مثل "#### [day1#slide-id] العنوان": استشهد بالشرائح بهذا المعرّف، وكل استشهاد رابط (slides/day1.html#slide-id). هذه الملفات هي ما يراه المشارك: لا ملاحظات المدرّب فيها ولا مفاتيح الإجابة.
+
+## المقرر
+
+- [صفحة المقرر](https://sdaiaacademy.github.io/lds-aig-401/index.md): نظرة عامة ونواتج التعلم والجدول والمختبرات؛ الصفحة نفسها https://sdaiaacademy.github.io/lds-aig-401/index.html
+- [المقرر كاملًا](https://sdaiaacademy.github.io/lds-aig-401/llms-full.txt): كل وحدة وجلسة وشريحة في ملف واحد، نحو 14,520 من الوحدات النصية
+- [أسئلة التدريب](https://sdaiaacademy.github.io/lds-aig-401/practice.html): أسئلة تختبر بها نفسك، مع تعليل بعد كل إجابة
+
+## الشرائح
+
+- [الانطلاقة: موجز الإستديو، والتشخيص، ونموذج التشغيل](https://sdaiaacademy.github.io/lds-aig-401/slides/kickoff.md): الأسبوعان 1 و2: الموجز والحالة، ثم الجلستان 1 و2 ومختبراهما؛ الجلسات: التشخيص والتفويض، نماذج التشغيل؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-401/slides/kickoff.html؛ نحو 4,919 من الوحدات النصية
+- [مراجعة المرحلة 1: التشخيص والميثاق، ثم السياسات والبوابات](https://sdaiaacademy.github.io/lds-aig-401/slides/r1.md): الأسبوع 3: يُقبل الميثاق أو يُعاد، ثم جلسة «السياسات والبوابات» ومختبرها؛ الجلسات: السياسات والبوابات؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-401/slides/r1.html؛ نحو 2,986 من الوحدات النصية
+- [مراجعة المرحلة 2: البوابات على خمسة أنظمة، ثم اللجان والقياس](https://sdaiaacademy.github.io/lds-aig-401/slides/r2.md): الأسبوعان 5 و6: مراجعة البوابات، ثم جلستا «اللجان» و«القياس والاستدامة» ومختبراهما؛ الجلسات: اللجان، القياس والاستدامة؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-401/slides/r2.html؛ نحو 3,670 من الوحدات النصية
+- [مراجعة المرحلة 3: اللجنة والمقاييس والموارد وخارطة الطريق](https://sdaiaacademy.github.io/lds-aig-401/slides/r3.md): الأسبوع 7: مراجعة الملف كاملًا وتدريب على المناقشة بحدث للتمرين؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-401/slides/r3.html؛ نحو 1,185 من الوحدات النصية
+- [المناقشة الختامية: الدفاع عن البرنامج أمام لجنة](https://sdaiaacademy.github.io/lds-aig-401/slides/capstone.md): الأسبوع 8: عرض 15 دقيقة، ثم 20 دقيقة من الأسئلة فيها حدث جديد تطرحه اللجنة؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-401/slides/capstone.html؛ نحو 1,082 من الوحدات النصية
+
+## المختبرات
+
+- [المختبر 1.1: شخّص الشريحة](https://sdaiaacademy.github.io/lds-aig-401/labs/U1_1_diagnosis.md): الانطلاقة، الجلسة 1، 96 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-401/labs/U1_1_diagnosis.html
+- [المختبر 1.2: قارن ثلاثة نماذج تشغيل](https://sdaiaacademy.github.io/lds-aig-401/labs/U1_2_operating_model.md): الانطلاقة، الجلسة 2، 96 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-401/labs/U1_2_operating_model.html
+- [المختبر 2.1: خمسة طلبات في البوابات](https://sdaiaacademy.github.io/lds-aig-401/labs/U2_1_gates.md): مراجعة المرحلة 1، الجلسة 1، 96 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-401/labs/U2_1_gates.html
+- [المختبر 3.1: لجنة تدريبية على ثلاثة ملفات](https://sdaiaacademy.github.io/lds-aig-401/labs/U3_1_committee.md): مراجعة المرحلة 2، الجلسة 1، 96 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-401/labs/U3_1_committee.html
+- [المختبر 3.2: تقرير سنة إلى اللجنة التنفيذية](https://sdaiaacademy.github.io/lds-aig-401/labs/U3_2_board_report.md): مراجعة المرحلة 2، الجلسة 2، 96 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-401/labs/U3_2_board_report.html
+
+## ملفات السياق
+
+- [context/course.md](https://sdaiaacademy.github.io/lds-aig-401/context/course.md): المقرر كاملًا، لمساعد يقبل ملفًا مرفقًا، نحو 14,520 من الوحدات النصية
+- [context/kickoff.md](https://sdaiaacademy.github.io/lds-aig-401/context/kickoff.md): الانطلاقة، نحو 4,919 من الوحدات النصية
+- [context/r1.md](https://sdaiaacademy.github.io/lds-aig-401/context/r1.md): مراجعة المرحلة 1، نحو 2,986 من الوحدات النصية
+- [context/r2.md](https://sdaiaacademy.github.io/lds-aig-401/context/r2.md): مراجعة المرحلة 2، نحو 3,670 من الوحدات النصية
+- [context/r3.md](https://sdaiaacademy.github.io/lds-aig-401/context/r3.md): مراجعة المرحلة 3، نحو 1,185 من الوحدات النصية
+- [context/capstone.md](https://sdaiaacademy.github.io/lds-aig-401/context/capstone.md): المناقشة الختامية، نحو 1,082 من الوحدات النصية
