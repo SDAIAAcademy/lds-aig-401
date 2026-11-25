@@ -49,7 +49,7 @@ Designing and Running an AI Governance Programme
 |---|---|
 | 1 | الانطلاقة: الموجز (20 دقيقة)، ثم جلسة «التشخيص والتفويض» والمختبر 1.1 |
 | 2 | جلسة «نماذج التشغيل» والمختبر 1.2، وساعة موجهة |
-| 3 | مراجعة المرحلة 1 (التشخيص والميثاق ونموذج التشغيل، 120 دقيقة)، ثم جلسة «السياسات والبوابات» والمختبر 2.1 |
+| 3 | مراجعة المرحلة 1 (التشخيص والميثاق ونموذج التشغيل، 120 دقيقة)، ثم جلسة «السياسات والبوابات» والمختبر 2.1، وساعة موجهة |
 | 4 | ساعة موجهة على السياسات والبوابات |
 | 5 | مراجعة المرحلة 2 (السياسات والبوابات على خمسة أنظمة بأزمنة قراراتها، 120 دقيقة)، ثم جلسة «اللجان» والمختبر 3.1، وساعة موجهة |
 | 6 | اجتماع اللجنة تحت الملاحظة (60 دقيقة لكل مشارك)، ثم جلسة «القياس والاستدامة» والمختبر 3.2، وساعة موجهة |
@@ -161,6 +161,7 @@ uv run labs/solutions/check.py
 - [SDAIA: National AI Risk Management Framework, executive summary (SDAIA-P145EN)](https://sdaia.gov.sa/en/MediaCenter/KnowledgeCenter/ResearchLibrary/ExecutiveSummaryEn.pdf)
 - [سدايا: مشروع سياسة الذكاء الاصطناعي المسؤول، منصة «استطلاع» (مسودة، آخر تحديث 29 مارس 2026)](https://istitlaa.ncc.gov.sa/ar/Transportation/NDMO/ResponsibleAIPolicy/Pages/default.aspx)
 - [سدايا: أدوات تنظيم سوق الذكاء الاصطناعي (الوسوم التحفيزية وشهادات الاعتماد)](https://sdaia.gov.sa/ar/MediaCenter/KnowledgeCenter/ResearchLibrary/AIMarketGovernanceTools.pdf)
+- [مكتب إدارة البيانات الوطنية: سياسات حوكمة البيانات الوطنية، الإصدار الثاني 2021 (منها سياسة تصنيف البيانات)](https://sdaia.gov.sa/ndmo/Files/PoliciesAr.pdf)
 - [سدايا: مبادئ الذكاء الاصطناعي التوليدي للجهات الحكومية](https://sdaia.gov.sa/ar/SDAIA/about/Files/GenAIGuidelinesForGovernmentARCompressed.pdf)
 - [سدايا: صفحة الأنظمة والسياسات](https://sdaia.gov.sa/ar/SDAIA/about/Pages/RegulationsAndPolicies.aspx)
 
@@ -177,6 +178,7 @@ uv run labs/solutions/check.py
 - إطار تبني الذكاء الاصطناعي الصادر عن سدايا (SDAIA-P121): صادر، 2025. https://sdaia.gov.sa/ar/SDAIA/about/Files/AIAdoptionFramework.pdf
 - الإطار الوطني لإدارة مخاطر الذكاء الاصطناعي (SDAIA-P145EN): إطار استرشادي، الإصدار 1.0، أبريل 2026. النص العربي الكامل: https://sdaia.gov.sa/ar/MediaCenter/KnowledgeCenter/ResearchLibrary/ExecutiveSummaryAr.pdf
 - مسودة سياسة الذكاء الاصطناعي المسؤول الصادرة عن سدايا (مسودة مطروحة لاستطلاع الآراء): غير نافذة؛ آخر تحديث للصفحة 29 مارس 2026، ولم تكن في صفحة الأنظمة والسياسات في سدايا في 25 نوفمبر 2026. https://istitlaa.ncc.gov.sa/ar/Transportation/NDMO/ResponsibleAIPolicy/Pages/default.aspx
+- سياسات حوكمة البيانات الوطنية الصادرة عن مكتب إدارة البيانات الوطنية، ومنها سياسة تصنيف البيانات: الإصدار الثاني، 2021، ونطاقها بيانات الجهات العامة؛ مستوياتها سري للغاية، وسري، ومقيد، وعام. https://sdaia.gov.sa/ndmo/Files/PoliciesAr.pdf
 - مبادئ الذكاء الاصطناعي التوليدي للجهات الحكومية الصادرة عن سدايا: صادرة. لا يُدخل في أداة توليدية ما يصنف «مقيد» فأعلى. https://sdaia.gov.sa/ar/SDAIA/about/Files/GenAIGuidelinesForGovernmentARCompressed.pdf
 - أدوات تنظيم سوق الذكاء الاصطناعي الصادرة عن سدايا (الوسوم التحفيزية وشهادات الاعتماد): صادرة، 2025. https://sdaia.gov.sa/ar/MediaCenter/KnowledgeCenter/ResearchLibrary/AIMarketGovernanceTools.pdf
 

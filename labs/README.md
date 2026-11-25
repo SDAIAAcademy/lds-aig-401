@@ -28,7 +28,7 @@
 
 | المختبر | الصفحة | يبدأ من | الحل المرجعي |
 |---|---|---|---|
-| 1.1 | `U1_1_diagnosis.html` | `inventory.csv`، `staff_tools_survey.csv`، `incidents.csv`، `committee_meetings.csv`، `policies.md`، `interviews.md`، `obligations.md`، `maturity_model.md` | `solutions/U1_1_diagnosis.md` |
+| 1.1 | `U1_1_diagnosis.html` | `inventory.csv`، `staff_tools_survey.csv`، `incidents.csv`، `committee_meetings.csv`، `policies.md`، `interviews.md`، `obligations.md`، `maturity_model.md`، `year_training.csv` | `solutions/U1_1_diagnosis.md` |
 | 1.2 | `U1_2_operating_model.html` | `structure.md`، `ops_proposal.md` | `solutions/U1_2_operating_model.md` |
 | 2.1 | `U2_1_gates.html` | `policy_set_draft.md`، `gates_draft.md`، `gate_requests.md`، `gate_log.csv`، `exceptions_register_template.csv` | `solutions/U2_1_gates.md` |
 | 3.1 | `U3_1_committee.html` | `committee_tor_reference.md`، `committee_dossiers.md`، `role_cards.md`، `minutes_template.md`، `observation_sheet.md` | `solutions/U3_1_committee.md` |
